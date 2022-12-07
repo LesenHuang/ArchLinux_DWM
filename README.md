@@ -1,11 +1,11 @@
-ArchLinux Install 
------------------
+# ArchLinux Install 
 date: 	2022-12-5<br>
 auther: lesen & huang<br>
 description: 
 	Record the whole process of installing archiso.
 
-## Install Opertion Manual
+Install Opertion Manual
+-----------------------
 
 ### Connetion WIFI
 ```terminal
@@ -22,6 +22,7 @@ iwctl> station wlan0 show
 iwctl> q #Ctrl+d
 ```
 ### Three Kinds Diskpart
+
 1. GPT Partition encrypt
 | Device | Size | Type |
 |:--------:|:--:|:---------:|
