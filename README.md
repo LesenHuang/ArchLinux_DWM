@@ -24,6 +24,7 @@ iwctl> q #Ctrl+d
 ### Three Kinds Diskpart
 
 1. GPT Partition encrypt
+
 | Device | Size | Type |
 |:--------:|:--:|:---------:|
 |/dev/sda1 |512M|EFI System|
@@ -31,12 +32,14 @@ iwctl> q #Ctrl+d
 |/dev/sda3 |100%free|Linux lvm #encrypt|
 
 2. GPT Partition discrypt
+
 | Device | Size | Type |
 |:------:|:----:|:----:|
 |/dev/sda1 |512M|EFI System|
 |/dev/sda2 |100%free|Linux lvm|
 
 3. MBR Partition
+
 | Device | Size | Type |
 |:------:|:----:|:----:|
 |/dev/sda1 |100%free|Linux lvm|
